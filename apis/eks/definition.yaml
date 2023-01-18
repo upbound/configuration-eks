@@ -5,7 +5,7 @@ metadata:
 spec:
   connectionSecretKeys:
   - kubeconfig
-  group: k8s.aws.starter.org
+  group: aws.k8s.starter.org
   names:
     kind: XEKS
     plural: xeks
