@@ -14,13 +14,9 @@ metadata:
       configured Amazon Elastic Kubernetes Service (EKS) clusters, composed
       using cloud service primitives from the [Upbound Official AWS
       Provider](https://marketplace.upbound.io/providers/upbound/provider-aws).
-      The extension enables a hosted portal in Upbound Cloud for interacting
-      with your control plane’s APIs.
 spec:
   crossplane:
     version: ">=v1.7.0-0"
   dependsOn:
     - provider: xpkg.upbound.io/upbound/provider-aws
       version: ">=v0.31.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-helm
-      version: ">=v0.12.0"

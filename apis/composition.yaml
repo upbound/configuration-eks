@@ -56,12 +56,3 @@ spec:
           toFieldPath: spec.parameters.securityGroupIds
           policy:
             fromFieldPath: Required
-    - base:
-        apiVersion: k8s.starter.org/v1alpha1
-        kind: XServices
-      name: compositeClusterServices
-      patches:
-        - fromFieldPath: spec.id
-          toFieldPath: spec.providerConfigRef.name
-        - fromFieldPath: spec.parameters.services.operators.prometheus.version
-          toFieldPath: spec.operators.prometheus.version
