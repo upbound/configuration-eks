@@ -8,7 +8,7 @@ When this configuration is installed on a control plane, the control plane will 
 
 A custom API in [Crossplane](https://docs.crossplane.io/v1.11/getting-started/introduction/) is defined by two configuration files:
 
-- a CompositeResourceDefinition (XRD) config file. This defines the sschema or shape of the API
+- a CompositeResourceDefinition (XRD) config file. This defines the schema or shape of the API.
 - a Composition config file(s). These files implement the schema by _composing_ a set of Crossplane managed resources together.
 
 For this configuration, the EKS API is defined by:
